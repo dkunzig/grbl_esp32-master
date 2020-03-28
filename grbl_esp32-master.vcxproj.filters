@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="components\arduino\cores\esp32\base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\cbuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\Esp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\FunctionalInterrupt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\HardwareSerial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\IPAddress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\IPv6Address.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\MD5Builder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\Print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\Stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\StreamString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\WMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\WString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-adc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-bt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-cpu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-dac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-gpio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-i2c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-ledc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-matrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-psram.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-rmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-sigmadelta.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-spi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-touch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-uart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\stdlib_noniso.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\wiring_pulse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\wiring_shift.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\libb64\cdecode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\cores\esp32\libb64\cencode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\arduinoota\src\ArduinoOTA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\arduinowebsockets\examples\particle\particlewebsocketclient\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\arduinowebsockets\src\WebSockets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\arduinowebsockets\src\WebSocketsClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\arduinowebsockets\src\libb64\cdecode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\arduinowebsockets\src\libb64\cencode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\arduinowebsockets\src\libsha1\libsha1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\asyncudp\src\AsyncUDP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\AzureIotHub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\Esp32MQTTClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\azureiotcerts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\agenttime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\dns_async.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\socket_async.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\tlsio_options.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\freertos\lock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\freertos\threadapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\freertos\tickcounter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\lwip\sntp_lwip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\src\platform_openssl_compact.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\src\tlsio_openssl_compact.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\base64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\connection_string_parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\consolelogger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\constbuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\constmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\crt_abstractions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\doublylinkedlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\gballoc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\gb_stdio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\gb_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\hmac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\hmacsha256.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\httpapiex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\httpapiexsas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\httpheaders.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\http_proxy_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\map.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\optionhandler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\sastoken.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\sha1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\sha224.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\sha384-512.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\singlylinkedlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\strings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\string_tokenizer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\urlencode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\usha.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\vector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\xio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\xlogging.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\blob.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothubtransport.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothubtransportmqtt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothubtransport_mqtt_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothub_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothub_client_authorization.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothub_client_ll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothub_client_retry_control.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothub_message.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\umqtt\src\mqtt_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\umqtt\src\mqtt_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\umqtt\src\mqtt_message.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLE2902.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLE2904.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEAddress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEAdvertisedDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEAdvertising.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEBeacon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLECharacteristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLECharacteristicMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEDescriptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEDescriptorMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEEddystoneTLM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEEddystoneURL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEExceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEHIDDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLERemoteCharacteristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLERemoteDescriptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLERemoteService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEScan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLESecurity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEServiceMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEUUID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\FreeRTOS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ble\src\GeneralUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\bluetoothserial\src\BluetoothSerial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\dnsserver\src\DNSServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\eeprom\src\EEPROM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\esp32\examples\camera\camerawebserver\app_httpd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\esp32ssdp\ESP32SSDP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\espmdns\src\ESPmDNS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ffat\src\FFat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\fs\src\FS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\fs\src\vfs_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\httpclient\src\HTTPClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\httpupdate\src\HTTPUpdate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\netbios\src\NetBIOS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\preferences\src\Preferences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\sd\src\SD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\sd\src\sd_diskio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\sd\src\sd_diskio_crc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\sd_mmc\src\SD_MMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\simpleble\src\SimpleBLE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\spi\src\SPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\spiffs\src\SPIFFS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\ticker\src\Ticker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\update\src\Updater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\webserver\src\Parsing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\webserver\src\WebServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\webserver\src\detail\mimetable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wifi\src\ETH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiAP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiGeneric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiMulti.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiScan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiSTA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiUdp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wificlientsecure\src\ssl_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wificlientsecure\src\WiFiClientSecure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\wire\src\Wire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\arduinowebsockets\examples\particle\particlewebsocketclient\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\arduinowebsockets\src\libb64\cdecode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\arduinowebsockets\src\libb64\cencode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\arduinowebsockets\src\libsha1\libsha1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\esp32ssdp\ESP32SSDP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\BTconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\commands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\coolant_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\espresponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\gcode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\grbl_eeprom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\grbl_limits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\grbl_sd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\jog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\motion_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\notifications_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\nuts_bolts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\planner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\probe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\protocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\report.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\serial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\serial2socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\servo_axis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\servo_pen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\solenoid_pen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\spindle_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\stepper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\telnet_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\TMC2130.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\web_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\wificonfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\wifiservices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\arduino\libraries\arduinoWebSockets\src\WebSocketsServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main\ssl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\BTconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\commands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\coolant_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\cpu_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\defaults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\espresponse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\gcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\grbl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\grbl_eeprom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\grbl_limits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\grbl_sd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\jog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\nofile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\nuts_bolts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\planner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\probe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\report.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\serial2socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\servo_axis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\servo_pen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\solenoid_pen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\spindle_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\stepper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\tdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\telnet_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\TMC2130.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\web_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\wificonfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main\wifiservices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build\default.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="build\bootloader\bootloader.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="components\arduino\libraries\update\examples\aws_s3_ota_update\StartCounter.ino.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="components\arduino\tools\partitions\boot_app0.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="components\arduino\tools\partitions\default.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="components\arduino\tools\sdk\bin\bootloader_dio_40m.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="components\arduino\tools\sdk\bin\bootloader_dio_80m.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="components\arduino\tools\sdk\bin\bootloader_dout_40m.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="components\arduino\tools\sdk\bin\bootloader_dout_80m.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="components\arduino\tools\sdk\bin\bootloader_qio_40m.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="components\arduino\tools\sdk\bin\bootloader_qio_80m.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="components\arduino\tools\sdk\bin\bootloader_qout_40m.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="components\arduino\tools\sdk\bin\bootloader_qout_80m.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="components\arduino\libraries\webserver\examples\fsbrowser\data\index.htm" />
+    <None Include="components\arduino\libraries\webserver\examples\sdwebserver\sdroot\index.htm" />
+    <None Include="components\arduino\libraries\webserver\examples\sdwebserver\sdroot\edit\index.htm" />
+    <None Include="embedded\www\tool.html" />
+  </ItemGroup>
+</Project>

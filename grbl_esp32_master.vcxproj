@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7190B900-D7B7-4869-901E-4C58F8431E4A}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="embedded\www\tool.html" />
+    <None Include="libraries\arduinowebsockets\tests\webSocket.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\esp-idf\components\esp32\cpu_start.c" />
+    <ClCompile Include="..\esp-idf\components\lwip\lwip\src\api\sockets.c" />
+    <ClCompile Include="..\esp-idf\components\lwip\lwip\src\core\pbuf.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-ledc.c" />
+    <ClCompile Include="components\arduino\cores\esp32\Print.cpp" />
+    <ClCompile Include="components\arduino\libraries\arduinoWebSockets\src\WebSockets.cpp" />
+    <ClCompile Include="components\arduino\libraries\arduinoWebSockets\src\WebSocketsServer.cpp" />
+    <ClCompile Include="components\arduino\libraries\Preferences\src\Preferences.cpp" />
+    <ClCompile Include="components\arduino\libraries\WiFi\src\WiFiUdp.cpp" />
+    <ClCompile Include="main\BTconfig.cpp" />
+    <ClCompile Include="main\commands.cpp" />
+    <ClCompile Include="main\coolant_control.cpp" />
+    <ClCompile Include="main\espresponse.cpp" />
+    <ClCompile Include="main\gcode.cpp" />
+    <ClCompile Include="main\grbl_eeprom.cpp" />
+    <ClCompile Include="main\grbl_limits.cpp" />
+    <ClCompile Include="main\grbl_sd.cpp" />
+    <ClCompile Include="main\jog.cpp" />
+    <ClCompile Include="main\main.cpp" />
+    <ClCompile Include="main\motion_control.cpp" />
+    <ClCompile Include="main\notifications_service.cpp" />
+    <ClCompile Include="main\nuts_bolts.cpp" />
+    <ClCompile Include="main\planner.cpp" />
+    <ClCompile Include="main\print.cpp" />
+    <ClCompile Include="main\probe.cpp" />
+    <ClCompile Include="main\protocol.cpp" />
+    <ClCompile Include="main\report.cpp" />
+    <ClCompile Include="main\serial.cpp" />
+    <ClCompile Include="main\serial2socket.cpp" />
+    <ClCompile Include="main\servo_axis.cpp" />
+    <ClCompile Include="main\servo_pen.cpp" />
+    <ClCompile Include="main\settings.cpp" />
+    <ClCompile Include="main\solenoid_pen.cpp" />
+    <ClCompile Include="main\spindle_control.cpp" />
+    <ClCompile Include="main\stepper.cpp" />
+    <ClCompile Include="main\system.cpp" />
+    <ClCompile Include="main\telnet_server.cpp" />
+    <ClCompile Include="main\TMC2130.cpp" />
+    <ClCompile Include="main\web_server.cpp" />
+    <ClCompile Include="main\wificonfig.cpp" />
+    <ClCompile Include="main\wifiservices.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\esp-idf\components\driver\include\driver\ledc.h" />
+    <ClInclude Include="components\arduino\libraries\arduinoWebSockets\src\WebSockets.h" />
+    <ClInclude Include="components\arduino\libraries\arduinoWebSockets\src\WebSocketsServer.h" />
+    <ClInclude Include="components\arduino\libraries\Preferences\src\Preferences.h" />
+    <ClInclude Include="main\BTconfig.h" />
+    <ClInclude Include="main\commands.h" />
+    <ClInclude Include="main\config.h" />
+    <ClInclude Include="main\coolant_control.h" />
+    <ClInclude Include="main\cpu_map.h" />
+    <ClInclude Include="main\defaults.h" />
+    <ClInclude Include="main\espresponse.h" />
+    <ClInclude Include="main\gcode.h" />
+    <ClInclude Include="main\grbl.h" />
+    <ClInclude Include="main\grbl_eeprom.h" />
+    <ClInclude Include="main\grbl_limits.h" />
+    <ClInclude Include="main\grbl_sd.h" />
+    <ClInclude Include="main\jog.h" />
+    <ClInclude Include="main\motion_control.h" />
+    <ClInclude Include="main\nofile.h" />
+    <ClInclude Include="main\notifications_service.h" />
+    <ClInclude Include="main\nuts_bolts.h" />
+    <ClInclude Include="main\planner.h" />
+    <ClInclude Include="main\print.h" />
+    <ClInclude Include="main\probe.h" />
+    <ClInclude Include="main\protocol.h" />
+    <ClInclude Include="main\report.h" />
+    <ClInclude Include="main\serial.h" />
+    <ClInclude Include="main\serial2socket.h" />
+    <ClInclude Include="main\servo_axis.h" />
+    <ClInclude Include="main\servo_pen.h" />
+    <ClInclude Include="main\settings.h" />
+    <ClInclude Include="main\solenoid_pen.h" />
+    <ClInclude Include="main\spindle_control.h" />
+    <ClInclude Include="main\ssl.h" />
+    <ClInclude Include="main\stepper.h" />
+    <ClInclude Include="main\system.h" />
+    <ClInclude Include="main\tdef.h" />
+    <ClInclude Include="main\telnet_server.h" />
+    <ClInclude Include="main\TMC2130.h" />
+    <ClInclude Include="main\web_server.h" />
+    <ClInclude Include="main\wificonfig.h" />
+    <ClInclude Include="main\wifiservices.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

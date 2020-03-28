@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6C1E5895-6E34-404F-BEF9-1907B3840196}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="components\arduino\cores\esp32\base64.cpp" />
+    <ClCompile Include="components\arduino\cores\esp32\cbuf.cpp" />
+    <ClCompile Include="components\arduino\cores\esp32\Esp.cpp" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-adc.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-bt.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-cpu.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-dac.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-gpio.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-i2c.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-ledc.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-matrix.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-misc.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-psram.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-rmt.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-sigmadelta.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-spi.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-time.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-timer.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-touch.c" />
+    <ClCompile Include="components\arduino\cores\esp32\esp32-hal-uart.c" />
+    <ClCompile Include="components\arduino\cores\esp32\FunctionalInterrupt.cpp" />
+    <ClCompile Include="components\arduino\cores\esp32\HardwareSerial.cpp" />
+    <ClCompile Include="components\arduino\cores\esp32\IPAddress.cpp" />
+    <ClCompile Include="components\arduino\cores\esp32\IPv6Address.cpp" />
+    <ClCompile Include="components\arduino\cores\esp32\libb64\cdecode.c" />
+    <ClCompile Include="components\arduino\cores\esp32\libb64\cencode.c" />
+    <ClCompile Include="components\arduino\cores\esp32\MD5Builder.cpp" />
+    <ClCompile Include="components\arduino\cores\esp32\Print.cpp" />
+    <ClCompile Include="components\arduino\cores\esp32\stdlib_noniso.c" />
+    <ClCompile Include="components\arduino\cores\esp32\Stream.cpp" />
+    <ClCompile Include="components\arduino\cores\esp32\StreamString.cpp" />
+    <ClCompile Include="components\arduino\cores\esp32\wiring_pulse.c" />
+    <ClCompile Include="components\arduino\cores\esp32\wiring_shift.c" />
+    <ClCompile Include="components\arduino\cores\esp32\WMath.cpp" />
+    <ClCompile Include="components\arduino\cores\esp32\WString.cpp" />
+    <ClCompile Include="components\arduino\libraries\arduinoota\src\ArduinoOTA.cpp" />
+    <ClCompile Include="components\arduino\libraries\arduinowebsockets\examples\particle\particlewebsocketclient\application.cpp" />
+    <ClCompile Include="components\arduino\libraries\arduinowebsockets\src\libb64\cdecode.c" />
+    <ClCompile Include="components\arduino\libraries\arduinowebsockets\src\libb64\cencode.c" />
+    <ClCompile Include="components\arduino\libraries\arduinowebsockets\src\libsha1\libsha1.c" />
+    <ClCompile Include="components\arduino\libraries\arduinowebsockets\src\WebSockets.cpp" />
+    <ClCompile Include="components\arduino\libraries\arduinowebsockets\src\WebSocketsClient.cpp" />
+    <ClCompile Include="components\arduino\libraries\arduinoWebSockets\src\WebSocketsServer.cpp" />
+    <ClCompile Include="components\arduino\libraries\asyncudp\src\AsyncUDP.cpp" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\AzureIotHub.cpp" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\azureiotcerts.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\agenttime.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\dns_async.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\freertos\lock.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\freertos\threadapi.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\freertos\tickcounter.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\lwip\sntp_lwip.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\socket_async.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\src\platform_openssl_compact.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\src\tlsio_openssl_compact.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\pal\tlsio_options.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\base64.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\buffer.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\connection_string_parser.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\consolelogger.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\constbuffer.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\constmap.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\crt_abstractions.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\doublylinkedlist.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\gballoc.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\gb_stdio.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\gb_time.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\hmac.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\hmacsha256.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\httpapiex.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\httpapiexsas.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\httpheaders.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\http_proxy_io.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\map.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\optionhandler.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\sastoken.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\sha1.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\sha224.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\sha384-512.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\singlylinkedlist.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\strings.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\string_tokenizer.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\urlencode.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\usha.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\vector.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\xio.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\c-utility\src\xlogging.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\blob.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothubtransport.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothubtransportmqtt.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothubtransport_mqtt_common.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothub_client.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothub_client_authorization.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothub_client_ll.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothub_client_retry_control.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\iothub_message.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\iothub_client\src\version.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\umqtt\src\mqtt_client.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\umqtt\src\mqtt_codec.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\az_iot\umqtt\src\mqtt_message.c" />
+    <ClCompile Include="components\arduino\libraries\azureiot\src\Esp32MQTTClient.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLE2902.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLE2904.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEAddress.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEAdvertisedDevice.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEAdvertising.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEBeacon.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLECharacteristic.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLECharacteristicMap.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEClient.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEDescriptor.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEDescriptorMap.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEDevice.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEEddystoneTLM.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEEddystoneURL.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEExceptions.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEHIDDevice.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLERemoteCharacteristic.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLERemoteDescriptor.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLERemoteService.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEScan.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLESecurity.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEServer.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEService.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEServiceMap.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEUtils.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEUUID.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\BLEValue.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\FreeRTOS.cpp" />
+    <ClCompile Include="components\arduino\libraries\ble\src\GeneralUtils.cpp" />
+    <ClCompile Include="components\arduino\libraries\bluetoothserial\src\BluetoothSerial.cpp" />
+    <ClCompile Include="components\arduino\libraries\dnsserver\src\DNSServer.cpp" />
+    <ClCompile Include="components\arduino\libraries\eeprom\src\EEPROM.cpp" />
+    <ClCompile Include="components\arduino\libraries\esp32ssdp\ESP32SSDP.cpp" />
+    <ClCompile Include="components\arduino\libraries\esp32\examples\camera\camerawebserver\app_httpd.cpp" />
+    <ClCompile Include="components\arduino\libraries\espmdns\src\ESPmDNS.cpp" />
+    <ClCompile Include="components\arduino\libraries\ffat\src\FFat.cpp" />
+    <ClCompile Include="components\arduino\libraries\fs\src\FS.cpp" />
+    <ClCompile Include="components\arduino\libraries\fs\src\vfs_api.cpp" />
+    <ClCompile Include="components\arduino\libraries\httpclient\src\HTTPClient.cpp" />
+    <ClCompile Include="components\arduino\libraries\httpupdate\src\HTTPUpdate.cpp" />
+    <ClCompile Include="components\arduino\libraries\netbios\src\NetBIOS.cpp" />
+    <ClCompile Include="components\arduino\libraries\preferences\src\Preferences.cpp" />
+    <ClCompile Include="components\arduino\libraries\sd\src\SD.cpp" />
+    <ClCompile Include="components\arduino\libraries\sd\src\sd_diskio.cpp" />
+    <ClCompile Include="components\arduino\libraries\sd\src\sd_diskio_crc.c" />
+    <ClCompile Include="components\arduino\libraries\sd_mmc\src\SD_MMC.cpp" />
+    <ClCompile Include="components\arduino\libraries\simpleble\src\SimpleBLE.cpp" />
+    <ClCompile Include="components\arduino\libraries\spiffs\src\SPIFFS.cpp" />
+    <ClCompile Include="components\arduino\libraries\spi\src\SPI.cpp" />
+    <ClCompile Include="components\arduino\libraries\ticker\src\Ticker.cpp" />
+    <ClCompile Include="components\arduino\libraries\update\src\Updater.cpp" />
+    <ClCompile Include="components\arduino\libraries\webserver\src\detail\mimetable.cpp" />
+    <ClCompile Include="components\arduino\libraries\webserver\src\Parsing.cpp" />
+    <ClCompile Include="components\arduino\libraries\webserver\src\WebServer.cpp" />
+    <ClCompile Include="components\arduino\libraries\wificlientsecure\src\ssl_client.cpp" />
+    <ClCompile Include="components\arduino\libraries\wificlientsecure\src\WiFiClientSecure.cpp" />
+    <ClCompile Include="components\arduino\libraries\wifi\src\ETH.cpp" />
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFi.cpp" />
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiAP.cpp" />
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiClient.cpp" />
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiGeneric.cpp" />
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiMulti.cpp" />
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiScan.cpp" />
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiServer.cpp" />
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiSTA.cpp" />
+    <ClCompile Include="components\arduino\libraries\wifi\src\WiFiUdp.cpp" />
+    <ClCompile Include="components\arduino\libraries\wire\src\Wire.cpp" />
+    <ClCompile Include="libraries\arduinowebsockets\examples\particle\particlewebsocketclient\application.cpp" />
+    <ClCompile Include="libraries\arduinowebsockets\src\libb64\cdecode.c" />
+    <ClCompile Include="libraries\arduinowebsockets\src\libb64\cencode.c" />
+    <ClCompile Include="libraries\arduinowebsockets\src\libsha1\libsha1.c" />
+    <ClCompile Include="libraries\esp32ssdp\ESP32SSDP.cpp" />
+    <ClCompile Include="main\BTconfig.cpp" />
+    <ClCompile Include="main\commands.cpp" />
+    <ClCompile Include="main\coolant_control.cpp" />
+    <ClCompile Include="main\espresponse.cpp" />
+    <ClCompile Include="main\gcode.cpp" />
+    <ClCompile Include="main\grbl_eeprom.cpp" />
+    <ClCompile Include="main\grbl_limits.cpp" />
+    <ClCompile Include="main\grbl_sd.cpp" />
+    <ClCompile Include="main\jog.cpp" />
+    <ClCompile Include="main\main.cpp" />
+    <ClCompile Include="main\motion_control.cpp" />
+    <ClCompile Include="main\notifications_service.cpp" />
+    <ClCompile Include="main\nuts_bolts.cpp" />
+    <ClCompile Include="main\planner.cpp" />
+    <ClCompile Include="main\print.cpp" />
+    <ClCompile Include="main\probe.cpp" />
+    <ClCompile Include="main\protocol.cpp" />
+    <ClCompile Include="main\report.cpp" />
+    <ClCompile Include="main\serial.cpp" />
+    <ClCompile Include="main\serial2socket.cpp" />
+    <ClCompile Include="main\servo_axis.cpp" />
+    <ClCompile Include="main\servo_pen.cpp" />
+    <ClCompile Include="main\settings.cpp" />
+    <ClCompile Include="main\solenoid_pen.cpp" />
+    <ClCompile Include="main\spindle_control.cpp" />
+    <ClCompile Include="main\stepper.cpp" />
+    <ClCompile Include="main\system.cpp" />
+    <ClCompile Include="main\telnet_server.cpp" />
+    <ClCompile Include="main\TMC2130.cpp" />
+    <ClCompile Include="main\web_server.cpp" />
+    <ClCompile Include="main\wificonfig.cpp" />
+    <ClCompile Include="main\wifiservices.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main\BTconfig.h" />
+    <ClInclude Include="main\commands.h" />
+    <ClInclude Include="main\config.h" />
+    <ClInclude Include="main\coolant_control.h" />
+    <ClInclude Include="main\cpu_map.h" />
+    <ClInclude Include="main\defaults.h" />
+    <ClInclude Include="main\espresponse.h" />
+    <ClInclude Include="main\gcode.h" />
+    <ClInclude Include="main\grbl.h" />
+    <ClInclude Include="main\grbl_eeprom.h" />
+    <ClInclude Include="main\grbl_limits.h" />
+    <ClInclude Include="main\grbl_sd.h" />
+    <ClInclude Include="main\jog.h" />
+    <ClInclude Include="main\nofile.h" />
+    <ClInclude Include="main\nuts_bolts.h" />
+    <ClInclude Include="main\planner.h" />
+    <ClInclude Include="main\print.h" />
+    <ClInclude Include="main\probe.h" />
+    <ClInclude Include="main\protocol.h" />
+    <ClInclude Include="main\report.h" />
+    <ClInclude Include="main\serial.h" />
+    <ClInclude Include="main\serial2socket.h" />
+    <ClInclude Include="main\servo_axis.h" />
+    <ClInclude Include="main\servo_pen.h" />
+    <ClInclude Include="main\settings.h" />
+    <ClInclude Include="main\solenoid_pen.h" />
+    <ClInclude Include="main\spindle_control.h" />
+    <ClInclude Include="main\ssl.h" />
+    <ClInclude Include="main\stepper.h" />
+    <ClInclude Include="main\system.h" />
+    <ClInclude Include="main\tdef.h" />
+    <ClInclude Include="main\telnet_server.h" />
+    <ClInclude Include="main\TMC2130.h" />
+    <ClInclude Include="main\web_server.h" />
+    <ClInclude Include="main\wificonfig.h" />
+    <ClInclude Include="main\wifiservices.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build\bootloader\bootloader.bin" />
+    <None Include="build\default.bin" />
+    <None Include="components\arduino\libraries\update\examples\aws_s3_ota_update\StartCounter.ino.bin" />
+    <None Include="components\arduino\libraries\webserver\examples\fsbrowser\data\index.htm" />
+    <None Include="components\arduino\libraries\webserver\examples\sdwebserver\sdroot\edit\index.htm" />
+    <None Include="components\arduino\libraries\webserver\examples\sdwebserver\sdroot\index.htm" />
+    <None Include="components\arduino\tools\partitions\boot_app0.bin" />
+    <None Include="components\arduino\tools\partitions\default.bin" />
+    <None Include="components\arduino\tools\sdk\bin\bootloader_dio_40m.bin" />
+    <None Include="components\arduino\tools\sdk\bin\bootloader_dio_80m.bin" />
+    <None Include="components\arduino\tools\sdk\bin\bootloader_dout_40m.bin" />
+    <None Include="components\arduino\tools\sdk\bin\bootloader_dout_80m.bin" />
+    <None Include="components\arduino\tools\sdk\bin\bootloader_qio_40m.bin" />
+    <None Include="components\arduino\tools\sdk\bin\bootloader_qio_80m.bin" />
+    <None Include="components\arduino\tools\sdk\bin\bootloader_qout_40m.bin" />
+    <None Include="components\arduino\tools\sdk\bin\bootloader_qout_80m.bin" />
+    <None Include="embedded\www\tool.html" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
