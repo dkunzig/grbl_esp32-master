@@ -49,7 +49,7 @@ static st_block_t st_block_buffer[SEGMENT_BUFFER_SIZE-1];
 // the planner, where the remaining planner block steps still can.
 typedef struct {
 	uint16_t n_step;           // Number of step events to be executed for this segment
-	uint16_t cycles_per_tick;  // Step distance traveled per ISR tick, aka step rate.
+	uint32_t cycles_per_tick;  // Step distance traveled per ISR tick, aka step rate.
 	uint8_t  st_block_index;   // Stepper block data index. Uses this information to execute this segment.
 #ifdef ADAPTIVE_MULTI_AXIS_STEP_SMOOTHING
 	uint8_t amass_level;    // Indicates AMASS level for the ISR to execute this segment
@@ -1273,21 +1273,23 @@ void st_prep_buffer()
 			prep_segment->cycles_per_tick = 0xffff;    // Just set the slowest speed possible.
 		}
 #else
-		// Compute step timing and timer prescalar for normal step generation.
-		if (cycles < (1UL << 16)) { // < 65536  (4.1ms @ 16MHz)
-			prep_segment->prescaler = 1; // prescaler: 0
-			prep_segment->cycles_per_tick = cycles;
-		} else if (cycles < (1UL << 19)) { // < 524288 (32.8ms@16MHz)
-			prep_segment->prescaler = 2; // prescaler: 8
-			prep_segment->cycles_per_tick = cycles >> 3;
-		} else {
-			prep_segment->prescaler = 3; // prescaler: 64
-			if (cycles < (1UL << 22)) { // < 4194304 (262ms@16MHz)
-				prep_segment->cycles_per_tick =  cycles >> 6;
-			} else { // Just set the slowest speed possible. (Around 4 step/sec.)
-				prep_segment->cycles_per_tick = 0xffff;
-			}
-		}
+		//// Compute step timing and timer prescalar for normal step generation.
+		//if (cycles < (1UL << 16)) { // < 65536  (4.1ms @ 16MHz)
+		//	prep_segment->prescaler = 1; // prescaler: 0
+		//	prep_segment->cycles_per_tick = cycles;
+		//} else if (cycles < (1UL << 19)) { // < 524288 (32.8ms@16MHz)
+		//	prep_segment->prescaler = 2; // prescaler: 8
+		//	prep_segment->cycles_per_tick = cycles >> 3;
+		//} else {
+		//	prep_segment->prescaler = 3; // prescaler: 64
+		//	if (cycles < (1UL << 22)) { // < 4194304 (262ms@16MHz)
+		//		prep_segment->cycles_per_tick =  cycles >> 6;
+		//	} else { // Just set the slowest speed possible. (Around 4 step/sec.)
+		//		prep_segment->cycles_per_tick = 0xffff;
+		//	}
+		//}
+		prep_segment->cycles_per_tick = cycles;
+
 #endif
 
 		// Segment complete! Increment segment buffer indices, so stepper ISR can immediately execute it.
