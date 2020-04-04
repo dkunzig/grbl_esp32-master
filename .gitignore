@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+grbl_esp32_master.VC.db
+sdkconfig.old
+*.db
+*.bin
+build/app_update/tmp_cppflags.txt
+Debug/grbl_esp32-master.vcxprojAssemblyReference.cache
+*.suo
