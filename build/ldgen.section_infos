@@ -9,6 +9,7 @@ C:/grbl_esp32-master/build/app_trace/libapp_trace.a.sections_info
  C:/grbl_esp32-master/build/console/libconsole.a.sections_info
  C:/grbl_esp32-master/build/cxx/libcxx.a.sections_info
  C:/grbl_esp32-master/build/driver/libdriver.a.sections_info
+ C:/grbl_esp32-master/build/efuse/libefuse.a.sections_info
  C:/grbl_esp32-master/build/esp-tls/libesp-tls.a.sections_info
  C:/grbl_esp32-master/build/esp32/libesp32.a.sections_info
  C:/grbl_esp32-master/build/esp_adc_cal/libesp_adc_cal.a.sections_info
@@ -18,6 +19,7 @@ C:/grbl_esp32-master/build/app_trace/libapp_trace.a.sections_info
  C:/grbl_esp32-master/build/esp_https_ota/libesp_https_ota.a.sections_info
  C:/grbl_esp32-master/build/esp_https_server/libesp_https_server.a.sections_info
  C:/grbl_esp32-master/build/esp_ringbuf/libesp_ringbuf.a.sections_info
+ C:/grbl_esp32-master/build/espcoredump/libespcoredump.a.sections_info
  C:/grbl_esp32-master/build/ethernet/libethernet.a.sections_info
  C:/grbl_esp32-master/build/expat/libexpat.a.sections_info
  C:/grbl_esp32-master/build/fatfs/libfatfs.a.sections_info
@@ -37,6 +39,7 @@ C:/grbl_esp32-master/build/app_trace/libapp_trace.a.sections_info
  C:/grbl_esp32-master/build/mqtt/libmqtt.a.sections_info
  C:/grbl_esp32-master/build/newlib/libnewlib.a.sections_info
  C:/grbl_esp32-master/build/nghttp/libnghttp.a.sections_info
+ C:/grbl_esp32-master/build/nimble/libnimble.a.sections_info
  C:/grbl_esp32-master/build/nvs_flash/libnvs_flash.a.sections_info
  C:/grbl_esp32-master/build/openssl/libopenssl.a.sections_info
  C:/grbl_esp32-master/build/protobuf-c/libprotobuf-c.a.sections_info

@@ -70,147 +70,147 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
  32 .literal.linenoiseHistoryAdd 00000028  00000000  00000000  000002c4  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 33 .literal.linenoiseEdit 000000cc  00000000  00000000  000002ec  2**2
+ 33 .literal.linenoiseEdit 000000d8  00000000  00000000  000002ec  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 34 .literal.linenoiseRaw 00000010  00000000  00000000  000003b8  2**2
+ 34 .literal.linenoiseRaw 00000010  00000000  00000000  000003c4  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 35 .literal.linenoise 00000020  00000000  00000000  000003c8  2**2
+ 35 .literal.linenoise 00000020  00000000  00000000  000003d4  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 36 .literal.linenoiseHistorySetMaxLen 00000020  00000000  00000000  000003e8  2**2
+ 36 .literal.linenoiseHistorySetMaxLen 00000020  00000000  00000000  000003f4  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 37 .literal.linenoiseHistorySave 0000001c  00000000  00000000  00000408  2**2
+ 37 .literal.linenoiseHistorySave 0000001c  00000000  00000000  00000414  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 38 .literal.linenoiseHistoryLoad 00000020  00000000  00000000  00000424  2**2
+ 38 .literal.linenoiseHistoryLoad 00000020  00000000  00000000  00000430  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 39 .text         00000000  00000000  00000000  00000444  2**0
+ 39 .text         00000000  00000000  00000000  00000450  2**0
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 40 .data         00000000  00000000  00000000  00000444  2**0
+ 40 .data         00000000  00000000  00000000  00000450  2**0
                   CONTENTS, ALLOC, LOAD, DATA
- 41 .bss          00000000  00000000  00000000  00000444  2**0
+ 41 .bss          00000000  00000000  00000000  00000450  2**0
                   ALLOC
- 42 .text.abInit  0000000b  00000000  00000000  00000444  2**2
+ 42 .text.abInit  0000000b  00000000  00000000  00000450  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 43 .text.sanitize 00000030  00000000  00000000  00000450  2**2
+ 43 .text.sanitize 00000030  00000000  00000000  0000045c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 44 .text.abAppend 0000002c  00000000  00000000  00000480  2**2
+ 44 .text.abAppend 0000002c  00000000  00000000  0000048c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 45 .text.abFree  0000000e  00000000  00000000  000004ac  2**2
+ 45 .text.abFree  0000000e  00000000  00000000  000004b8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 46 .text.freeCompletions 00000028  00000000  00000000  000004bc  2**2
+ 46 .text.freeCompletions 00000028  00000000  00000000  000004c8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 47 .rodata.str1.4 00000092  00000000  00000000  000004e4  2**2
+ 47 .rodata.str1.4 00000092  00000000  00000000  000004f0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 48 .text.getCursorPosition 00000084  00000000  00000000  00000578  2**2
+ 48 .text.getCursorPosition 00000084  00000000  00000000  00000584  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 49 .text.getColumns 00000072  00000000  00000000  000005fc  2**2
+ 49 .text.getColumns 00000072  00000000  00000000  00000608  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 50 .text.linenoiseBeep 00000016  00000000  00000000  00000670  2**2
+ 50 .text.linenoiseBeep 00000016  00000000  00000000  0000067c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 51 .text.linenoiseDumb 000000a3  00000000  00000000  00000688  2**2
+ 51 .text.linenoiseDumb 000000a3  00000000  00000000  00000694  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 52 .text.linenoiseSetMultiLine 0000000a  00000000  00000000  0000072c  2**2
+ 52 .text.linenoiseSetMultiLine 0000000a  00000000  00000000  00000738  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 53 .text.linenoiseSetDumbMode 0000000a  00000000  00000000  00000738  2**2
+ 53 .text.linenoiseSetDumbMode 0000000a  00000000  00000000  00000744  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 54 .text.linenoiseClearScreen 0000001a  00000000  00000000  00000744  2**2
+ 54 .text.linenoiseClearScreen 0000001a  00000000  00000000  00000750  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 55 .text.linenoiseSetCompletionCallback 0000000a  00000000  00000000  00000760  2**2
+ 55 .text.linenoiseSetCompletionCallback 0000000a  00000000  00000000  0000076c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 56 .text.linenoiseSetHintsCallback 0000000a  00000000  00000000  0000076c  2**2
+ 56 .text.linenoiseSetHintsCallback 0000000a  00000000  00000000  00000778  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 57 .text.linenoiseSetFreeHintsCallback 0000000a  00000000  00000000  00000778  2**2
+ 57 .text.linenoiseSetFreeHintsCallback 0000000a  00000000  00000000  00000784  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 58 .text.linenoiseAddCompletion 0000004f  00000000  00000000  00000784  2**2
+ 58 .text.linenoiseAddCompletion 0000004f  00000000  00000000  00000790  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 59 .text.refreshShowHints 000000b7  00000000  00000000  000007d4  2**2
+ 59 .text.refreshShowHints 000000b7  00000000  00000000  000007e0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 60 .text.refreshMultiLine 000001b3  00000000  00000000  0000088c  2**2
+ 60 .text.refreshMultiLine 000001b3  00000000  00000000  00000898  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 61 .text.refreshSingleLine 000000eb  00000000  00000000  00000a40  2**2
+ 61 .text.refreshSingleLine 000000eb  00000000  00000000  00000a4c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 62 .text.refreshLine 0000001c  00000000  00000000  00000b2c  2**2
+ 62 .text.refreshLine 0000001c  00000000  00000000  00000b38  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 63 .text.completeLine 0000010d  00000000  00000000  00000b48  2**2
+ 63 .text.completeLine 0000010d  00000000  00000000  00000b54  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 64 .text.linenoiseEditInsert 000000c0  00000000  00000000  00000c58  2**2
+ 64 .text.linenoiseEditInsert 000000c0  00000000  00000000  00000c64  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 65 .text.linenoiseEditMoveLeft 00000016  00000000  00000000  00000d18  2**2
+ 65 .text.linenoiseEditMoveLeft 00000016  00000000  00000000  00000d24  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 66 .text.linenoiseEditMoveRight 00000018  00000000  00000000  00000d30  2**2
+ 66 .text.linenoiseEditMoveRight 00000018  00000000  00000000  00000d3c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 67 .text.linenoiseEditMoveHome 00000016  00000000  00000000  00000d48  2**2
+ 67 .text.linenoiseEditMoveHome 00000016  00000000  00000000  00000d54  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 68 .text.linenoiseEditMoveEnd 00000016  00000000  00000000  00000d60  2**2
+ 68 .text.linenoiseEditMoveEnd 00000016  00000000  00000000  00000d6c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 69 .text.linenoiseEditHistoryNext 00000086  00000000  00000000  00000d78  2**2
+ 69 .text.linenoiseEditHistoryNext 00000086  00000000  00000000  00000d84  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 70 .text.linenoiseEditDelete 0000003a  00000000  00000000  00000e00  2**2
+ 70 .text.linenoiseEditDelete 0000003a  00000000  00000000  00000e0c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 71 .text.linenoiseEditBackspace 0000003b  00000000  00000000  00000e3c  2**2
+ 71 .text.linenoiseEditBackspace 0000003b  00000000  00000000  00000e48  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 72 .text.linenoiseEditDeletePrevWord 00000057  00000000  00000000  00000e78  2**2
+ 72 .text.linenoiseEditDeletePrevWord 00000057  00000000  00000000  00000e84  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 73 .text.linenoiseProbe 00000099  00000000  00000000  00000ed0  2**2
+ 73 .text.linenoiseProbe 00000099  00000000  00000000  00000edc  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 74 .text.linenoiseFree 0000000e  00000000  00000000  00000f6c  2**2
+ 74 .text.linenoiseFree 0000000e  00000000  00000000  00000f78  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 75 .text.linenoiseHistoryFree 00000039  00000000  00000000  00000f7c  2**2
+ 75 .text.linenoiseHistoryFree 00000039  00000000  00000000  00000f88  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 76 .text.linenoiseHistoryAdd 000000b0  00000000  00000000  00000fb8  2**2
+ 76 .text.linenoiseHistoryAdd 000000b0  00000000  00000000  00000fc4  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 77 .text.linenoiseEdit 00000354  00000000  00000000  00001068  2**2
+ 77 .text.linenoiseEdit 00000374  00000000  00000000  00001074  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 78 .rodata.linenoiseEdit 00000220  00000000  00000000  000013bc  2**2
+ 78 .rodata.linenoiseEdit 00000220  00000000  00000000  000013e8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
- 79 .text.linenoiseRaw 00000034  00000000  00000000  000015dc  2**2
+ 79 .text.linenoiseRaw 00000034  00000000  00000000  00001608  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 80 .text.linenoise 0000005c  00000000  00000000  00001610  2**2
+ 80 .text.linenoise 0000005c  00000000  00000000  0000163c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 81 .text.linenoiseHistorySetMaxLen 00000098  00000000  00000000  0000166c  2**2
+ 81 .text.linenoiseHistorySetMaxLen 00000098  00000000  00000000  00001698  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 82 .text.linenoiseHistorySave 00000048  00000000  00000000  00001704  2**2
+ 82 .text.linenoiseHistorySave 00000048  00000000  00000000  00001730  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 83 .text.linenoiseHistoryLoad 0000005c  00000000  00000000  0000174c  2**2
+ 83 .text.linenoiseHistoryLoad 0000005c  00000000  00000000  00001778  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 84 .bss.history  00000004  00000000  00000000  000017a8  2**2
+ 84 .bss.history  00000004  00000000  00000000  000017d4  2**2
                   ALLOC
- 85 .bss.history_len 00000004  00000000  00000000  000017a8  2**2
+ 85 .bss.history_len 00000004  00000000  00000000  000017d4  2**2
                   ALLOC
- 86 .data.history_max_len 00000004  00000000  00000000  000017a8  2**2
+ 86 .data.history_max_len 00000004  00000000  00000000  000017d4  2**2
                   CONTENTS, ALLOC, LOAD, DATA
- 87 .bss.dumbmode 00000004  00000000  00000000  000017ac  2**2
+ 87 .bss.dumbmode 00000004  00000000  00000000  000017d8  2**2
                   ALLOC
- 88 .bss.mlmode   00000004  00000000  00000000  000017ac  2**2
+ 88 .bss.mlmode   00000004  00000000  00000000  000017d8  2**2
                   ALLOC
- 89 .bss.freeHintsCallback 00000004  00000000  00000000  000017ac  2**2
+ 89 .bss.freeHintsCallback 00000004  00000000  00000000  000017d8  2**2
                   ALLOC
- 90 .bss.hintsCallback 00000004  00000000  00000000  000017ac  2**2
+ 90 .bss.hintsCallback 00000004  00000000  00000000  000017d8  2**2
                   ALLOC
- 91 .bss.completionCallback 00000004  00000000  00000000  000017ac  2**2
+ 91 .bss.completionCallback 00000004  00000000  00000000  000017d8  2**2
                   ALLOC
- 92 .debug_frame  000003d0  00000000  00000000  000017ac  2**2
+ 92 .debug_frame  000003d0  00000000  00000000  000017d8  2**2
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 93 .debug_info   00002765  00000000  00000000  00001b7c  2**0
+ 93 .debug_info   000027c9  00000000  00000000  00001ba8  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 94 .debug_abbrev 000003a3  00000000  00000000  000042e1  2**0
+ 94 .debug_abbrev 000003dd  00000000  00000000  00004371  2**0
                   CONTENTS, READONLY, DEBUGGING
- 95 .debug_loc    00000ac6  00000000  00000000  00004684  2**0
+ 95 .debug_loc    00000ae5  00000000  00000000  0000474e  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 96 .debug_aranges 00000158  00000000  00000000  0000514a  2**0
+ 96 .debug_aranges 00000158  00000000  00000000  00005233  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 97 .debug_ranges 000001c0  00000000  00000000  000052a2  2**0
+ 97 .debug_ranges 000001c0  00000000  00000000  0000538b  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 98 .debug_line   000010ee  00000000  00000000  00005462  2**0
+ 98 .debug_line   00001154  00000000  00000000  0000554b  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 99 .debug_str    00000b44  00000000  00000000  00006550  2**0
+ 99 .debug_str    00000b70  00000000  00000000  0000669f  2**0
                   CONTENTS, READONLY, DEBUGGING
-100 .comment      0000003c  00000000  00000000  00007094  2**0
+100 .comment      0000003c  00000000  00000000  0000720f  2**0
                   CONTENTS, READONLY
-101 .xtensa.info  00000038  00000000  00000000  000070d0  2**0
+101 .xtensa.info  00000038  00000000  00000000  0000724b  2**0
                   CONTENTS, READONLY
-102 .xt.lit       00000138  00000000  00000000  00007108  2**0
+102 .xt.lit       00000138  00000000  00000000  00007283  2**0
                   CONTENTS, RELOC, READONLY
-103 .xt.prop      000011d0  00000000  00000000  00007240  2**0
+103 .xt.prop      000011dc  00000000  00000000  000073bb  2**0
                   CONTENTS, RELOC, READONLY
 
 argtable3.o:     file format elf32-xtensa-le
@@ -633,17 +633,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
 207 .debug_ranges 000004f0  00000000  00000000  00010275  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
-208 .debug_line   0000346b  00000000  00000000  00010765  2**0
+208 .debug_line   000034bf  00000000  00000000  00010765  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
-209 .debug_str    000011fd  00000000  00000000  00013bd0  2**0
+209 .debug_str    00001212  00000000  00000000  00013c24  2**0
                   CONTENTS, READONLY, DEBUGGING
-210 .comment      0000003c  00000000  00000000  00014dcd  2**0
+210 .comment      0000003c  00000000  00000000  00014e36  2**0
                   CONTENTS, READONLY
-211 .xtensa.info  00000038  00000000  00000000  00014e09  2**0
+211 .xtensa.info  00000038  00000000  00000000  00014e72  2**0
                   CONTENTS, READONLY
-212 .xt.lit       00000290  00000000  00000000  00014e41  2**0
+212 .xt.lit       00000290  00000000  00000000  00014eaa  2**0
                   CONTENTS, RELOC, READONLY
-213 .xt.prop      00003a5c  00000000  00000000  000150d1  2**0
+213 .xt.prop      00003a5c  00000000  00000000  0001513a  2**0
                   CONTENTS, RELOC, READONLY
 
 commands.o:     file format elf32-xtensa-le
@@ -712,17 +712,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  30 .debug_ranges 00000050  00000000  00000000  00001b74  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 31 .debug_line   000005b9  00000000  00000000  00001bc4  2**0
+ 31 .debug_line   0000064c  00000000  00000000  00001bc4  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 32 .debug_str    00000832  00000000  00000000  0000217d  2**0
+ 32 .debug_str    00000847  00000000  00000000  00002210  2**0
                   CONTENTS, READONLY, DEBUGGING
- 33 .comment      0000003c  00000000  00000000  000029af  2**0
+ 33 .comment      0000003c  00000000  00000000  00002a57  2**0
                   CONTENTS, READONLY
- 34 .xtensa.info  00000038  00000000  00000000  000029eb  2**0
+ 34 .xtensa.info  00000038  00000000  00000000  00002a93  2**0
                   CONTENTS, READONLY
- 35 .xt.lit       00000048  00000000  00000000  00002a23  2**0
+ 35 .xt.lit       00000048  00000000  00000000  00002acb  2**0
                   CONTENTS, RELOC, READONLY
- 36 .xt.prop      000003cc  00000000  00000000  00002a6b  2**0
+ 36 .xt.prop      000003cc  00000000  00000000  00002b13  2**0
                   CONTENTS, RELOC, READONLY
 
 split_argv.o:     file format elf32-xtensa-le
@@ -753,15 +753,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  11 .debug_ranges 00000028  00000000  00000000  000006b4  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 12 .debug_line   000001d7  00000000  00000000  000006dc  2**0
+ 12 .debug_line   000001ec  00000000  00000000  000006dc  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 13 .debug_str    0000021f  00000000  00000000  000008b3  2**0
+ 13 .debug_str    00000234  00000000  00000000  000008c8  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .comment      0000003c  00000000  00000000  00000ad2  2**0
+ 14 .comment      0000003c  00000000  00000000  00000afc  2**0
                   CONTENTS, READONLY
- 15 .xtensa.info  00000038  00000000  00000000  00000b0e  2**0
+ 15 .xtensa.info  00000038  00000000  00000000  00000b38  2**0
                   CONTENTS, READONLY
- 16 .xt.lit       00000008  00000000  00000000  00000b46  2**0
+ 16 .xt.lit       00000008  00000000  00000000  00000b70  2**0
                   CONTENTS, RELOC, READONLY
- 17 .xt.prop      00000168  00000000  00000000  00000b4e  2**0
+ 17 .xt.prop      00000168  00000000  00000000  00000b78  2**0
                   CONTENTS, RELOC, READONLY

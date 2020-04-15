@@ -60,71 +60,71 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
  27 .text.esp_adc_cal_check_efuse 00000031  00000000  00000000  00000354  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 28 .rodata.str1.4 0000008e  00000000  00000000  00000388  2**2
+ 28 .rodata.str1.4 000000a6  00000000  00000000  00000388  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 29 .text.esp_adc_cal_characterize 000000fa  00000000  00000000  00000418  2**2
+ 29 .text.esp_adc_cal_characterize 000000fa  00000000  00000000  00000430  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 30 .text.esp_adc_cal_raw_to_voltage 0000008c  00000000  00000000  00000514  2**2
+ 30 .text.esp_adc_cal_raw_to_voltage 0000008c  00000000  00000000  0000052c  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 31 .text.esp_adc_cal_get_voltage 0000005d  00000000  00000000  000005a0  2**2
+ 31 .text.esp_adc_cal_get_voltage 0000005d  00000000  00000000  000005b8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 32 .text.esp_adc_cal_get_characteristics 0000002a  00000000  00000000  00000600  2**2
+ 32 .text.esp_adc_cal_get_characteristics 0000002a  00000000  00000000  00000618  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 33 .text.adc1_to_voltage 0000002c  00000000  00000000  0000062c  2**2
+ 33 .text.adc1_to_voltage 0000002c  00000000  00000000  00000644  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 34 .rodata.__func__$3736 00000010  00000000  00000000  00000658  2**2
+ 34 .rodata.__func__$3740 00000010  00000000  00000000  00000670  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 35 .rodata.__func__$3731 00000020  00000000  00000000  00000668  2**2
+ 35 .rodata.__func__$3735 00000020  00000000  00000000  00000680  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 36 .rodata.__func__$3716 0000001b  00000000  00000000  00000688  2**2
+ 36 .rodata.__func__$3720 0000001b  00000000  00000000  000006a0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 37 .rodata.__func__$3705 00000019  00000000  00000000  000006a4  2**2
+ 37 .rodata.__func__$3709 00000019  00000000  00000000  000006bc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 38 .rodata.lut_adc2_high 00000050  00000000  00000000  000006c0  2**2
+ 38 .rodata.lut_adc2_high 00000050  00000000  00000000  000006d8  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 39 .rodata.lut_adc2_low 00000050  00000000  00000000  00000710  2**2
+ 39 .rodata.lut_adc2_low 00000050  00000000  00000000  00000728  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 40 .rodata.lut_adc1_high 00000050  00000000  00000000  00000760  2**2
+ 40 .rodata.lut_adc1_high 00000050  00000000  00000000  00000778  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 41 .rodata.lut_adc1_low 00000050  00000000  00000000  000007b0  2**2
+ 41 .rodata.lut_adc1_low 00000050  00000000  00000000  000007c8  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 42 .rodata.adc2_vref_atten_offset 00000010  00000000  00000000  00000800  2**2
+ 42 .rodata.adc2_vref_atten_offset 00000010  00000000  00000000  00000818  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 43 .rodata.adc1_vref_atten_offset 00000010  00000000  00000000  00000810  2**2
+ 43 .rodata.adc1_vref_atten_offset 00000010  00000000  00000000  00000828  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 44 .rodata.adc2_vref_atten_scale 00000010  00000000  00000000  00000820  2**2
+ 44 .rodata.adc2_vref_atten_scale 00000010  00000000  00000000  00000838  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 45 .rodata.adc1_vref_atten_scale 00000010  00000000  00000000  00000830  2**2
+ 45 .rodata.adc1_vref_atten_scale 00000010  00000000  00000000  00000848  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 46 .rodata.adc2_tp_atten_offset 00000010  00000000  00000000  00000840  2**2
+ 46 .rodata.adc2_tp_atten_offset 00000010  00000000  00000000  00000858  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 47 .rodata.adc1_tp_atten_offset 00000010  00000000  00000000  00000850  2**2
+ 47 .rodata.adc1_tp_atten_offset 00000010  00000000  00000000  00000868  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 48 .rodata.adc2_tp_atten_scale 00000010  00000000  00000000  00000860  2**2
+ 48 .rodata.adc2_tp_atten_scale 00000010  00000000  00000000  00000878  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 49 .rodata.adc1_tp_atten_scale 00000010  00000000  00000000  00000870  2**2
+ 49 .rodata.adc1_tp_atten_scale 00000010  00000000  00000000  00000888  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 50 .debug_frame  00000178  00000000  00000000  00000880  2**2
+ 50 .debug_frame  00000178  00000000  00000000  00000898  2**2
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 51 .debug_info   00000f2b  00000000  00000000  000009f8  2**0
+ 51 .debug_info   00000f2b  00000000  00000000  00000a10  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 52 .debug_abbrev 000002f4  00000000  00000000  00001923  2**0
+ 52 .debug_abbrev 000002f4  00000000  00000000  0000193b  2**0
                   CONTENTS, READONLY, DEBUGGING
- 53 .debug_loc    000008b4  00000000  00000000  00001c17  2**0
+ 53 .debug_loc    000008b4  00000000  00000000  00001c2f  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 54 .debug_aranges 00000090  00000000  00000000  000024cb  2**0
+ 54 .debug_aranges 00000090  00000000  00000000  000024e3  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 55 .debug_ranges 00000098  00000000  00000000  0000255b  2**0
+ 55 .debug_ranges 00000098  00000000  00000000  00002573  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 56 .debug_line   00000644  00000000  00000000  000025f3  2**0
+ 56 .debug_line   000006c2  00000000  00000000  0000260b  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 57 .debug_str    000008d3  00000000  00000000  00002c37  2**0
+ 57 .debug_str    000008e8  00000000  00000000  00002ccd  2**0
                   CONTENTS, READONLY, DEBUGGING
- 58 .comment      0000003c  00000000  00000000  0000350a  2**0
+ 58 .comment      0000003c  00000000  00000000  000035b5  2**0
                   CONTENTS, READONLY
- 59 .xtensa.info  00000038  00000000  00000000  00003546  2**0
+ 59 .xtensa.info  00000038  00000000  00000000  000035f1  2**0
                   CONTENTS, READONLY
- 60 .xt.lit       00000078  00000000  00000000  0000357e  2**0
+ 60 .xt.lit       00000078  00000000  00000000  00003629  2**0
                   CONTENTS, RELOC, READONLY
- 61 .xt.prop      000006b4  00000000  00000000  000035f6  2**0
+ 61 .xt.prop      000006b4  00000000  00000000  000036a1  2**0
                   CONTENTS, RELOC, READONLY

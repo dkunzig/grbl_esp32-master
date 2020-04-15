@@ -8,7 +8,7 @@
 
 
 
-   esp32.common.ld contains output sections to link compiler output
+   esp32.project.ld contains output sections to link compiler output
 
    into these memory blocks.
 

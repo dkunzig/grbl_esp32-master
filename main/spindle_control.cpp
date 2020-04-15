@@ -35,8 +35,8 @@ void spindle_init()
 		.speed_mode = LEDC_HIGH_SPEED_MODE,
 		.duty_resolution = LEDC_TIMER_8_BIT,
 		.timer_num = LEDC_TIMER_0,
-		.freq_hz = 1000
-	};	
+		.freq_hz = 1000};
+
 	ledc_timer_config(&timer_config);
 	
 	ledc_channel_config_t ledc_channel = {
@@ -46,8 +46,8 @@ void spindle_init()
 		.intr_type = LEDC_INTR_DISABLE,
 		.timer_sel = LEDC_TIMER_0,
 		.duty = 0,
-		.hpoint = 0
-		};
+		.hpoint = 0};
+
 	ledc_channel_config(&ledc_channel);
 
 

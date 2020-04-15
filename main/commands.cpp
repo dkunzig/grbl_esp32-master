@@ -1506,7 +1506,7 @@ bool COMMANDS::execute_internal_command (int cmd, String cmd_params, level_authe
                      espresponse->print (WiFi.subnetMask().toString().c_str());
                      espresponse->println("");
                      espresponse->print ("DNS: ");
-                     espresponse->print (WiFi.dnsIP().toString().c_str());
+                     //espresponse->print (WiFi.dnsIP().toString().c_str());
                      espresponse->println("");
                  } //this is web command so connection => no command 
                  espresponse->print ("Disabled Mode: ");

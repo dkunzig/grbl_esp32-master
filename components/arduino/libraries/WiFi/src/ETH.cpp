@@ -191,11 +191,11 @@ IPAddress ETHClass::gatewayIP()
     return IPAddress(ip.gw.addr);
 }
 
-IPAddress ETHClass::dnsIP(uint8_t dns_no)
-{
-    ip_addr_t dns_ip = dns_getserver(dns_no);
-    return IPAddress(dns_ip.u_addr.ip4.addr);
-}
+//IPAddress ETHClass::dnsIP(uint8_t dns_no)
+//{
+//    ip_addr_t dns_ip = dns_getserver(dns_no);
+//    return IPAddress(dns_ip.u_addr.ip4.addr);
+//}
 
 const char * ETHClass::getHostname()
 {

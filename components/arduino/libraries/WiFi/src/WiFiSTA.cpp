@@ -471,14 +471,14 @@ IPAddress WiFiSTAClass::gatewayIP()
  * @param dns_no
  * @return IPAddress DNS Server IP
  */
-IPAddress WiFiSTAClass::dnsIP(uint8_t dns_no)
-{
-    if(WiFiGenericClass::getMode() == WIFI_MODE_NULL){
-        return IPAddress();
-    }
-    ip_addr_t dns_ip = dns_getserver(dns_no);
-    return IPAddress(dns_ip.u_addr.ip4.addr);
-}
+//IPAddress WiFiSTAClass::dnsIP(uint8_t dns_no)
+//{
+//    if(WiFiGenericClass::getMode() == WIFI_MODE_NULL){
+//        return IPAddress();
+//    }
+//	ip_addr_t dns_ip = dns_getserver(dns_no);
+//    return IPAddress(dns_ip.u_addr.ip4.addr);
+//}
 
 /**
  * Return the current SSID associated with the network
